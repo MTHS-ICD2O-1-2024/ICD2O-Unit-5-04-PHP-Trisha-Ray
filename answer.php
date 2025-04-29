@@ -54,11 +54,11 @@
           <?php
           $theAge = $_GET['age'];
           $day = $_GET['days'];
-          if (( $day==3 || $day==6 || ($theAge > 12 && $theAge < 21))) {
-            echo "<p> If you are" . $theAge . "and the day is" . $day . "</ br>";
+          if (( $day== 'tuesday' || $day== 'thursday' || ($theAge > 12 && $theAge < 21))) {
+            echo "<p> If you are " . $theAge . "and the day is " . $day . "</p>";
             echo "<p>You are eligible for a student discount.</p>";
           } else {
-            echo "<p> If you are" . $theAge . "and the day is" . $day . "</ br>";
+            echo "<p> If you are " . $theAge . "and the day is " . $day . "</p>";
             echo "<p>You must pay full price.</p>";
           }
           ?>

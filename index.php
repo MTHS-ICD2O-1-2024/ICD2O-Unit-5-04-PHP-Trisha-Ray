@@ -74,7 +74,7 @@
             id="option-Sunday"
             class="mdl-radio__button"
             name="days"
-            value="1"
+            value="sunday"
             checked />
           <span class="mdl-radio__label">Sunday</span>
         </label>
@@ -87,7 +87,7 @@
             id="option-Monday"
             class="mdl-radio__button"
             name="days"
-            value="2" />
+            value="monday" />
           <span class="mdl-radio__label">Monday</span>
         </label>
         <br />
@@ -99,7 +99,7 @@
             id="option-Tuesday"
             class="mdl-radio__button"
             name="days"
-            value="3" />
+            value="tuesday" />
           <span class="mdl-radio__label">Tuesday</span>
         </label>
         <br />
@@ -111,7 +111,7 @@
             id="option-Wednesday"
             class="mdl-radio__button"
             name="days"
-            value="4" />
+            value="wednesday" />
           <span class="mdl-radio__label">Wednesday</span>
         </label>
         <br />
@@ -123,7 +123,7 @@
             id="option-Thursday"
             class="mdl-radio__button"
             name="days"
-            value="5" />
+            value="thrusday" />
           <span class="mdl-radio__label">Thursday</span>
         </label>
         <br />
@@ -135,7 +135,7 @@
             id="option-Friday"
             class="mdl-radio__button"
             name="days"
-            value="6" />
+            value="friday" />
           <span class="mdl-radio__label">Friday</span>
         </label>
         <br />
@@ -147,7 +147,7 @@
             id="option-Saturday"
             class="mdl-radio__button"
             name="days"
-            value="7" />
+            value="saturday" />
           <span class="mdl-radio__label">Saturday</span>
         </label>
         <br />
@@ -165,5 +165,4 @@
     </main>
   </div>
 </body>
-
 </html>
